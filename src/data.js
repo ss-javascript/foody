@@ -1,5 +1,6 @@
 export default [
   {
+    id: 0,
     name: 'Allegro',
     rate: '5',
     foodType: 'Italian',
@@ -7,6 +8,7 @@ export default [
     deliveryTax: '15.00',
   },
   {
+    id: 1,
     name: 'Bellyful',
     rate: '2',
     foodType: 'Chinese',
@@ -14,6 +16,7 @@ export default [
     deliveryTax: '5.00',
   },
   {
+    id: 2,
     name: 'Deep dish',
     rate: '4',
     foodType: 'pizza',
@@ -21,6 +24,7 @@ export default [
     deliveryTax: '5.00',
   },
   {
+    id: 3,
     name: 'Delicious',
     rate: '4',
     foodType: 'vegetarian',
@@ -28,6 +32,7 @@ export default [
     deliveryTax: '10.00',
   },
   {
+    id: 4,
     name: 'Dim sum house',
     rate: '4',
     foodType: 'Chinese',
@@ -35,6 +40,7 @@ export default [
     deliveryTax: '5.00',
   },
   {
+    id: 5,
     name: 'Enchantment under the sea',
     rate: '3',
     foodType: 'seafood',
@@ -42,6 +48,7 @@ export default [
     deliveryTax: '10.00',
   },
   {
+    id: 6,
     name: 'Freshness',
     rate: '3',
     foodType: 'vegetarian',
@@ -49,6 +56,7 @@ export default [
     deliveryTax: '4.00',
   },
   {
+    id: 7,
     name: 'euPHOria',
     rate: '3',
     foodType: 'Vietnamese',
@@ -56,6 +64,7 @@ export default [
     deliveryTax: '2.00',
   },
   {
+    id: 8,
     name: 'Food for thought',
     rate: '5',
     foodType: 'vegetarian',
@@ -63,6 +72,7 @@ export default [
     deliveryTax: '10.00',
   },
   {
+    id: 9,
     name: 'Green world',
     rate: '4',
     foodType: 'vegetarian',
@@ -70,6 +80,7 @@ export default [
     deliveryTax: '5.00',
   },
   {
+    id: 10,
     name: 'Holy smoke!',
     rate: '4',
     foodType: 'Brazilian barbecue',
@@ -77,6 +88,7 @@ export default [
     deliveryTax: '7.50',
   },
   {
+    id: 11,
     name: 'Hoshi sushi',
     rate: '3',
     foodType: 'Japanese',
@@ -84,6 +96,7 @@ export default [
     deliveryTax: '10.00',
   },
   {
+    id: 12,
     name: 'Hot hot heat!',
     rate: '3',
     foodType: 'Mexican',
@@ -91,13 +104,15 @@ export default [
     deliveryTax: '5.00',
   },
   {
+    id: 13,
     name: 'Lemongrass',
-    rate: 3,
+    rate: '3',
     foodType: 'vegetarian',
     deliveryTime: '10-15 min',
     deliveryTax: '10.00',
   },
   {
+    id: 14,
     name: 'Lord of the pizzas',
     rate: 4,
     foodType: 'pizza',
@@ -105,6 +120,7 @@ export default [
     deliveryTax: '5.00',
   },
   {
+    id: 15,
     name: 'Mamma Mia!',
     rate: '4',
     foodType: 'Italian',
@@ -112,6 +128,7 @@ export default [
     deliveryTax: '7.50',
   },
   {
+    id: 16,
     name: 'Meat lovers',
     rate: '4',
     foodType: 'Brazilian barbecue',
@@ -119,6 +136,7 @@ export default [
     deliveryTax: '5.00',
   },
   {
+    id: 17,
     name: 'Paradise found',
     rate: '5',
     foodType: 'Brazilian barbecue',
@@ -126,6 +144,7 @@ export default [
     deliveryTax: '10.00',
   },
   {
+    id: 18,
     name: 'Paradiso',
     rate: '5',
     foodType: 'Italian',
@@ -133,6 +152,7 @@ export default [
     deliveryTax: '15.00',
   },
   {
+    id: 19,
     name: 'Pho king good',
     rate: '3',
     foodType: 'Vietnamese',
@@ -140,6 +160,7 @@ export default [
     deliveryTax: '4.00',
   },
   {
+    id: 20,
     name: 'Piazza pizza',
     rate: '3',
     foodType: 'pizza',
@@ -147,6 +168,7 @@ export default [
     deliveryTax: '7.00',
   },
   {
+    id: 21,
     name: 'Pizza paradise',
     rate: '4',
     foodType: 'pizza',
@@ -154,6 +176,7 @@ export default [
     deliveryTax: '10.00',
   },
   {
+    id: 22,
     name: 'Pizza town',
     rate: '3',
     foodType: 'pizza',
@@ -161,6 +184,7 @@ export default [
     deliveryTax: '5.75',
   },
   {
+    id: 23,
     name: 'Prawness',
     rate: 5,
     foodType: 'seafood',
@@ -168,6 +192,7 @@ export default [
     deliveryTax: '10.00',
   },
   {
+    id: 24,
     name: 'Secret garden',
     rate: 5,
     foodType: 'Chinese',
@@ -175,6 +200,7 @@ export default [
     deliveryTax: '6.00',
   },
   {
+    id: 25,
     name: 'Soyokaze',
     rate: '5',
     foodType: 'Japanese',
@@ -182,6 +208,7 @@ export default [
     deliveryTax: '10.00',
   },
   {
+    id: 26,
     name: 'Sushimania',
     rate: '5',
     foodType: 'Japanese',
@@ -189,6 +216,7 @@ export default [
     deliveryTax: '15.00',
   },
   {
+    id: 27,
     name: 'Sushi heaven',
     rate: '4',
     foodType: 'Japanese',
@@ -196,6 +224,7 @@ export default [
     deliveryTax: '20.00',
   },
   {
+    id: 28,
     name: 'Sushi strikes back',
     rate: '5',
     foodType: 'Japanese',
@@ -203,6 +232,7 @@ export default [
     deliveryTax: '10.00',
   },
   {
+    id: 29,
     name: 'The godfather',
     rate: '3',
     foodType: 'Italian',
@@ -210,6 +240,7 @@ export default [
     deliveryTax: '7.00',
   },
   {
+    id: 30,
     name: 'The great wall of China',
     rate: '2',
     foodType: 'Chinese',
