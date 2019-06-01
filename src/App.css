@@ -5,7 +5,13 @@
 }
 
 h1 {
-  margin: auto;
+  margin: 20px auto;
   text-align: center;
   font-size: 20px;
+}
+
+.restaurantList {
+  margin: auto;
+  text-align: center;
+  font-size: 17px;
 }
