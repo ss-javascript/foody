@@ -1,26 +1,15 @@
 import React from 'react';
+import RestaurantCard from './RestaurantCard';
 
-const RestaurantListScreen = ({ restaurants }) => {
-  const content = restaurants.map(restaurant => (
-    <div key={restaurant.id}>
-      <p>
-        {restaurant.name}
-        {' '}
-        {restaurant.rate}
-        {' '}
-        {restaurant.foodType}
-        {' '}
-        {restaurant.deliveryTime}
-        {' '}
-        {restaurant.deliveryTax}
-      </p>
-    </div>
-  ));
-  return (
-    <div className="restaurantList">
-      {content}
-    </div>
-  );
-};
+const RestaurantListScreen = ({ restaurants }) => (
+  <div className="restaurantList">
+    {restaurants.map(restaurant => (
+      <RestaurantCard
+        key={restaurant.id}
+        restaurant={restaurant}
+      />
+    ))}
+  </div>
+);
 
 export default RestaurantListScreen;
